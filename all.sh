@@ -20,6 +20,7 @@ sudo dnf in -y \
 fzf \
 fuse-libs \
 pipx \
+rclone \
 neovim \
 unzip \
 p7zip \
@@ -70,4 +71,4 @@ set -gx EDITOR nvim
 sudo dnf copr -y enable alternateved/keyd
 sudo dnf install keyd -y
 
-
+./enable-workspaces-gnome.sh
